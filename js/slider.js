@@ -100,7 +100,7 @@ $(document).ready(function(){
   
   
   // 图片居中
-    $(".cell img").each(function(){
+    $(".cell img").load(function(){
     if(this.clientWidth > this.clientHeight){
       this.style.height = "170px";
       this.style.left = ((this.clientWidth - 170) / -2) + "px";
