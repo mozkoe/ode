@@ -148,7 +148,6 @@ a {
 }
 
 .intro {
-  margin-bottom: 1em;
   padding: 5.5em 10px 3em;
   text-align: center;
   background: #f6f1da;
@@ -208,6 +207,20 @@ a {
 .intro-social {
   padding-top: 40px;
   }
+
+/* wrapper */
+
+.wrapper {
+  padding-top: 40px;
+  width: 100%;
+  text-align: center;
+  background-color: #F8F8F8;
+}
+
+.content {
+  width: 1050px;
+  margin: 0px auto;
+}
 
 /*footer*/
 

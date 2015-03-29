@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Mozkoe (mozkoe@example.org)
+ * @date    2015-03-28 14:57:45
+ * @version $Id$
+ */
+
+/*.content {
+  width: 1085px;
+}*/
+
+.slider-wrapper {
+  margin: 0px auto;
+  width: 1050px;
+  height: 800px;
+}
+
+.slider {
+}
+
+.slider-rows {
+  height: 174px;
+  margin: 0px 0px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cell-container {
+  margin: 0px 0px;
+  width:10000px;
+  position:absolute;
+  left:0;
+  transition:0.5s;
+}
+
+.slider-item {
+  left:-1085px;
+  position: absolute;
+}
+
+.cell {
+  height: 170px;
+  width: 170px;
+  float: left;
+  margin: 0px 2px;
+  list-style-type: none;
+  overflow: hidden;
+  position:relative;
+}
+
+.slider li img {
+  position:absolute;
+  opacity:1;
+  width: auto;
+  height: auto;
+}
+
+.slider-wrapper {
+  position: relative;
+}
+
+.slider-wrapper:hover .btn{
+  opacity:1;
+}
+
+
+.btn{
+  opacity:0;
+  transition:0.5s;
+  position:absolute;
+  cursor: pointer;
+  top:320px;
+  z-index:100;
+  width:60px;
+  height:60px;
+  border-radius:100px;
+}
+
+#prev {
+  left: 10px;
+  background: url("../images/slidershow/prev.png");
+}
+
+#next {
+  right: 10px;
+  background: url("../images/slidershow/next.png");
+}
