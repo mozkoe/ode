@@ -99,15 +99,16 @@ $(document).ready(function(){
   });
   
     // 添加时间戳，强制浏览器load图片
-    d = new Date();
+    // github 国内访问速度过慢
+    // d = new Date();
     
-    $(".cell img").each(function() {
+    // $(".cell img").each(function() {
     
-    var temp_src = $(this).attr('src');
-    var date_src = temp_src + '?' + d.getTime()
-    $(this).attr('src',date_src);
+    // var temp_src = $(this).attr('src');
+    // var date_src = temp_src + '?' + d.getTime()
+    // $(this).attr('src',date_src);
     
-    });
+    // });
     
     
   
