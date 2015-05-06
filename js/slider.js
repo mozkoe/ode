@@ -98,23 +98,9 @@ $(document).ready(function(){
     }
   });
   
-    // 添加时间戳，强制浏览器load图片
-    // github 国内访问速度过慢
-    // d = new Date();
-    
-    // $(".cell img").each(function() {
-    
-    // var temp_src = $(this).attr('src');
-    // var date_src = temp_src + '?' + d.getTime()
-    // $(this).attr('src',date_src);
-    
-    // });
-    
-    
   
   // 图片居中
     $(".cell img").load(function(){
-      
     if(this.clientWidth > this.clientHeight){
       this.style.height = "170px";
       this.style.left = ((this.clientWidth - 170) / -2) + "px";
@@ -124,19 +110,6 @@ $(document).ready(function(){
     
     }
   });
-    
-    
-  // $(".cell img").each(function(){
-    
-  //   if(this.clientWidth > this.clientHeight){
-  //     this.style.height = "170px";
-  //     this.style.left = ((this.clientWidth - 170) / -2) + "px";
-  //   }else{
-  //     this.style.width = "170px";
-  //     this.style.top = ((this.clientHeight - 170) / -2) + "px";
-    
-  //   }
-  // });
   
   
 });

@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/**
+ * 
+ * @Mozkoe (mozkoe@example.org)
+ * @date    2015-05-06 20:33:05
+ * @version $0.2$
+ */
+
+.crossbanner {
+  height: 540px;
+  width: 100%;
+  color: #FFF;
+  display: none;
+}
+
+.crossbanner ul {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  min-width: 1007px;
+  margin: 0px auto;
+  padding-left: 0px;
+}
+
+.crossbanner li {
+  height: 540px;
+  list-style: none;
+  text-align: center;
+}
+
+.crossbanner li.c_banner_1 {
+  background-color: #1abc9c;
+}
+
+.crossbanner li.c_banner_2 {
+  background-color: #16a085;
+}
+
+.crossbanner li.c_banner_3 {
+  background-color: #2ecc71;
+}
+
+.crossbanner li.c_banner_4 {
+  background-color: #27ae60;
+}
+
+.content {
+  color: #FFF;
+  width: 100%;
+  text-align: center;
+}
+
+#header {
+  background-color: #34495e;
+}
+
+#footer {
+  background-color: #000;
+}
+
+.content h1 {
+  width: 100%;
+  height: 200px;
+  padding-top: 45px;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+
+.activebg {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-color: #FFF;
+  background-image: none;
+  background-repeat: none;
+  background-attachment: fixed;
+  background-position: center 0px;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+}
+
+.content .tier {
+  height: 400px;
+}
+
+.content .tier_1 {
+  background-color: #2c3e50;
+}
+
+.content .tier_2 {
+  background-color: #232E39;
+}
+
+.content .tier_3 {
+  background-color: #2c3e50;
+}
+
+.content .tier_4 {
+  background-color: #171A21;
+}
+
+.content .bg {
+  height: 600px;
+}
+
+.content .bg_1 {
+  background-image: url("../images/bg/stalker_bg1.jpg");
+}
+
+.content .bg_2 {
+  background-image: url("../images/bg/stalker_bg2.jpg");
+}
+
+.content .bg_3 {
+  background-image: url("../images/bg/stalker_bg3.jpg");
+}
+
+.content .bg_4 {
+  background-image: url("../images/bg/savannah_bg1.jpg");
+}
