@@ -1,3 +1,2 @@
 ## Moz's GitHub Pageeee
-***
-Powered by [Moz Moz (ﾉ*k oE)ﾉ](http://mozkoe.github.io/)
+Powered by <a href="http://mozkoe.github.io/" target="_blank">Moz Moz (ﾉ*k oE)ﾉ</a>
